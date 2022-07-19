@@ -1,0 +1,31 @@
+{
+    "os": "macOS-10.15.5-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-19T18:06:26.759401",
+    "startedAt": "2022-07-19T18:06:25.943590",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquest:latest",
+        "--artifact_name",
+        "processed_data.csv",
+        "--artifact_type",
+        "processed_data",
+        "--artifact_description",
+        "Data after preprocessing"
+    ],
+    "state": "running",
+    "program": "/Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/run.py",
+    "codePath": "lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/udacity/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": null,
+    "root": "/Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "Rebeccas-MacBook-Pro-2.local",
+    "username": "rebeccajohnson",
+    "executable": "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/bin/python"
+}

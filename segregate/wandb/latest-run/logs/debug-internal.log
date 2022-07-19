@@ -1,0 +1,162 @@
+2022-07-19 15:01:49,874 INFO    MainThread:3120 [internal.py:wandb_internal():90] W&B internal server running at pid: 3120, started at: 2022-07-19 15:01:49.873844
+2022-07-19 15:01:49,875 INFO    WriterThread:3120 [datastore.py:open_for_write():75] open: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/run-tw8ubxgy.wandb
+2022-07-19 15:01:49,876 DEBUG   SenderThread:3120 [sender.py:send():236] send: header
+2022-07-19 15:01:49,876 DEBUG   SenderThread:3120 [sender.py:send():236] send: run
+2022-07-19 15:01:50,054 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: check_version
+2022-07-19 15:01:50,056 INFO    SenderThread:3120 [dir_watcher.py:__init__():216] watching files in: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files
+2022-07-19 15:01:50,056 INFO    SenderThread:3120 [sender.py:_start_run_threads():815] run started: tw8ubxgy with start time 1658257309
+2022-07-19 15:01:50,056 DEBUG   SenderThread:3120 [sender.py:send():236] send: summary
+2022-07-19 15:01:50,056 INFO    SenderThread:3120 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-19 15:01:50,056 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: check_version
+2022-07-19 15:01:50,153 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: run_start
+2022-07-19 15:01:50,154 DEBUG   HandlerThread:3120 [meta.py:__init__():35] meta init
+2022-07-19 15:01:50,154 DEBUG   HandlerThread:3120 [meta.py:__init__():49] meta init done
+2022-07-19 15:01:50,154 DEBUG   HandlerThread:3120 [meta.py:probe():209] probe
+2022-07-19 15:01:50,160 DEBUG   HandlerThread:3120 [meta.py:_setup_git():199] setup git
+2022-07-19 15:01:50,185 DEBUG   HandlerThread:3120 [meta.py:_setup_git():206] setup git done
+2022-07-19 15:01:50,186 DEBUG   HandlerThread:3120 [meta.py:_save_pip():53] save pip
+2022-07-19 15:01:50,186 DEBUG   HandlerThread:3120 [meta.py:_save_pip():67] save pip done
+2022-07-19 15:01:50,186 DEBUG   HandlerThread:3120 [meta.py:_save_conda():74] save conda
+2022-07-19 15:01:51,018 DEBUG   HandlerThread:3120 [meta.py:_save_conda():84] save conda done
+2022-07-19 15:01:51,018 DEBUG   HandlerThread:3120 [meta.py:probe():247] probe done
+2022-07-19 15:01:51,022 DEBUG   SenderThread:3120 [sender.py:send():236] send: files
+2022-07-19 15:01:51,022 INFO    SenderThread:3120 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-19 15:01:51,027 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 15:01:51,027 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 15:01:51,063 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_created():269] file/dir created: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/requirements.txt
+2022-07-19 15:01:51,063 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_created():269] file/dir created: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/wandb-metadata.json
+2022-07-19 15:01:51,063 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_created():269] file/dir created: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/conda-environment.yaml
+2022-07-19 15:01:51,063 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_created():269] file/dir created: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/wandb-summary.json
+2022-07-19 15:01:51,063 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_created():269] file/dir created: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/output.log
+2022-07-19 15:01:51,196 DEBUG   SenderThread:3120 [sender.py:send():236] send: telemetry
+2022-07-19 15:01:51,579 INFO    Thread-11 :3120 [upload_job.py:push():138] Uploaded file /var/folders/dr/jw5xpmjj6fn444j002q13tz80000gn/T/tmp9cj6ibg4wandb/2rn3p4ah-wandb-metadata.json
+2022-07-19 15:01:52,288 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: log_artifact
+2022-07-19 15:01:52,288 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: log_artifact
+2022-07-19 15:01:53,068 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_modified():286] file/dir modified: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/output.log
+2022-07-19 15:01:54,266 INFO    Thread-13 :3120 [upload_job.py:push():96] Uploaded file /Users/rebeccajohnson/.cache/wandb/artifacts/obj/md5/41/55dca6d65f03823c3474af8bb58c6e
+2022-07-19 15:01:55,148 INFO    SenderThread:3120 [sender.py:send_request_log_artifact():1009] logged artifact data_train.csv - {'id': 'QXJ0aWZhY3Q6MTYwNDUyNTQx', 'digest': '76d9e232ceb9a99841b540b36edee56e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NDUzODQw', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-19 15:01:55,748 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: log_artifact
+2022-07-19 15:01:55,748 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: log_artifact
+2022-07-19 15:01:57,085 INFO    Thread-7  :3120 [dir_watcher.py:_on_file_modified():286] file/dir modified: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/output.log
+2022-07-19 15:01:57,330 INFO    Thread-15 :3120 [upload_job.py:push():96] Uploaded file /Users/rebeccajohnson/.cache/wandb/artifacts/obj/md5/b9/01e5f934e3ff77eefa6922d675975e
+2022-07-19 15:01:58,313 INFO    SenderThread:3120 [sender.py:send_request_log_artifact():1009] logged artifact data_test.csv - {'id': 'QXJ0aWZhY3Q6MTYwNDUyNTU2', 'digest': '6b5db1ce1146b15be64ab12c0957175d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NDUzODQz', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-19 15:01:58,861 DEBUG   SenderThread:3120 [sender.py:send():236] send: telemetry
+2022-07-19 15:02:01,114 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:01,115 DEBUG   SenderThread:3120 [sender.py:send():236] send: exit
+2022-07-19 15:02:01,115 INFO    SenderThread:3120 [sender.py:send_exit():372] handling exit code: 0
+2022-07-19 15:02:01,115 INFO    SenderThread:3120 [sender.py:send_exit():374] handling runtime: 10
+2022-07-19 15:02:01,115 INFO    SenderThread:3120 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-19 15:02:01,116 INFO    SenderThread:3120 [sender.py:send_exit():380] send defer
+2022-07-19 15:02:01,116 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:01,116 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,116 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 0
+2022-07-19 15:02:01,117 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,117 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-07-19 15:02:01,117 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 1
+2022-07-19 15:02:01,117 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,117 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 1
+2022-07-19 15:02:01,166 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,167 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-07-19 15:02:01,167 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 2
+2022-07-19 15:02:01,167 DEBUG   SenderThread:3120 [sender.py:send():236] send: stats
+2022-07-19 15:02:01,167 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,167 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 2
+2022-07-19 15:02:01,167 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,167 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-07-19 15:02:01,167 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 3
+2022-07-19 15:02:01,168 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,168 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 3
+2022-07-19 15:02:01,168 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,168 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-07-19 15:02:01,168 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 4
+2022-07-19 15:02:01,168 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,168 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 4
+2022-07-19 15:02:01,168 DEBUG   SenderThread:3120 [sender.py:send():236] send: summary
+2022-07-19 15:02:01,169 INFO    SenderThread:3120 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-19 15:02:01,169 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,169 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-07-19 15:02:01,169 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 5
+2022-07-19 15:02:01,169 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,169 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 5
+2022-07-19 15:02:01,169 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,169 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-07-19 15:02:01,221 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:01,313 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 6
+2022-07-19 15:02:01,313 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:01,314 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:01,314 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 6
+2022-07-19 15:02:01,314 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:01,314 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-07-19 15:02:01,314 INFO    SenderThread:3120 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-19 15:02:01,418 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,089 INFO    SenderThread:3120 [dir_watcher.py:_on_file_modified():286] file/dir modified: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/wandb-summary.json
+2022-07-19 15:02:02,089 INFO    SenderThread:3120 [dir_watcher.py:_on_file_modified():286] file/dir modified: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/config.yaml
+2022-07-19 15:02:02,090 INFO    SenderThread:3120 [dir_watcher.py:_on_file_modified():286] file/dir modified: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/output.log
+2022-07-19 15:02:02,090 INFO    SenderThread:3120 [dir_watcher.py:finish():383] scan: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files
+2022-07-19 15:02:02,091 INFO    SenderThread:3120 [dir_watcher.py:finish():397] scan save: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/requirements.txt requirements.txt
+2022-07-19 15:02:02,091 INFO    SenderThread:3120 [dir_watcher.py:finish():397] scan save: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/output.log output.log
+2022-07-19 15:02:02,094 INFO    SenderThread:3120 [dir_watcher.py:finish():397] scan save: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/config.yaml config.yaml
+2022-07-19 15:02:02,096 INFO    SenderThread:3120 [dir_watcher.py:finish():397] scan save: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/wandb-summary.json wandb-summary.json
+2022-07-19 15:02:02,100 INFO    SenderThread:3120 [dir_watcher.py:finish():397] scan save: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/conda-environment.yaml conda-environment.yaml
+2022-07-19 15:02:02,103 INFO    SenderThread:3120 [dir_watcher.py:finish():397] scan save: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/wandb-metadata.json wandb-metadata.json
+2022-07-19 15:02:02,103 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 7
+2022-07-19 15:02:02,103 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,104 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:02,104 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 7
+2022-07-19 15:02:02,106 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:02,106 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-07-19 15:02:02,106 INFO    SenderThread:3120 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-19 15:02:02,208 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,208 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,311 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,311 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,414 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,414 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,518 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,518 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,625 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,625 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,731 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,731 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,836 INFO    Thread-18 :3120 [upload_job.py:push():138] Uploaded file /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/config.yaml
+2022-07-19 15:02:02,837 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,837 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:02,852 INFO    Thread-17 :3120 [upload_job.py:push():138] Uploaded file /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/output.log
+2022-07-19 15:02:02,857 INFO    Thread-19 :3120 [upload_job.py:push():138] Uploaded file /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/wandb-summary.json
+2022-07-19 15:02:02,868 INFO    Thread-20 :3120 [upload_job.py:push():138] Uploaded file /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/conda-environment.yaml
+2022-07-19 15:02:02,880 INFO    Thread-16 :3120 [upload_job.py:push():138] Uploaded file /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/files/requirements.txt
+2022-07-19 15:02:02,943 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:02,943 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:03,049 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:03,049 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:03,084 INFO    Thread-6  :3120 [sender.py:transition_state():393] send defer: 8
+2022-07-19 15:02:03,085 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:03,085 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 8
+2022-07-19 15:02:03,085 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:03,085 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-07-19 15:02:03,155 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:03,184 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 9
+2022-07-19 15:02:03,184 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:03,185 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:03,185 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 9
+2022-07-19 15:02:03,185 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:03,185 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-07-19 15:02:03,185 INFO    SenderThread:3120 [sender.py:transition_state():393] send defer: 10
+2022-07-19 15:02:03,186 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: defer
+2022-07-19 15:02:03,186 DEBUG   SenderThread:3120 [sender.py:send():236] send: final
+2022-07-19 15:02:03,186 INFO    HandlerThread:3120 [handler.py:handle_request_defer():163] handle defer: 10
+2022-07-19 15:02:03,186 DEBUG   SenderThread:3120 [sender.py:send():236] send: footer
+2022-07-19 15:02:03,186 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: defer
+2022-07-19 15:02:03,187 INFO    SenderThread:3120 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-07-19 15:02:03,289 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-19 15:02:03,290 DEBUG   SenderThread:3120 [sender.py:send_request():250] send_request: poll_exit
+2022-07-19 15:02:03,290 INFO    SenderThread:3120 [file_pusher.py:join():176] waiting for file pusher
+2022-07-19 15:02:03,560 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: sampled_history
+2022-07-19 15:02:03,561 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-19 15:02:03,562 DEBUG   HandlerThread:3120 [handler.py:handle_request():140] handle_request: shutdown
+2022-07-19 15:02:03,562 INFO    HandlerThread:3120 [handler.py:finish():806] shutting down handler
+2022-07-19 15:02:04,189 INFO    WriterThread:3120 [datastore.py:close():279] close: /Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/segregate/wandb/run-20220719_150149-tw8ubxgy/run-tw8ubxgy.wandb
+2022-07-19 15:02:04,459 INFO    SenderThread:3120 [sender.py:finish():1114] shutting down sender
+2022-07-19 15:02:04,459 INFO    SenderThread:3120 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-19 15:02:04,459 INFO    SenderThread:3120 [file_pusher.py:join():176] waiting for file pusher
+2022-07-19 15:02:04,460 INFO    MainThread:3120 [internal.py:handle_exit():80] Internal process exited

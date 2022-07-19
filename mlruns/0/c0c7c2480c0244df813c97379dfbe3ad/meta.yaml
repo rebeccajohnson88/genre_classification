@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/c0c7c2480c0244df813c97379dfbe3ad/artifacts
+end_time: 1658253546884
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: c0c7c2480c0244df813c97379dfbe3ad
+run_uuid: c0c7c2480c0244df813c97379dfbe3ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1658253463275
+status: 4
+tags: []
+user_id: rebeccajohnson

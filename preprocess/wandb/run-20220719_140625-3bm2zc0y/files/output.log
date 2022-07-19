@@ -1,0 +1,33 @@
+2022-07-19 14:06:27,844 Downloading artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project rebeccaj/exercise_14 does not contain artifact: "raw_data.parquest:latest"
+Traceback (most recent call last):
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/public.py", line 874, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/public.py", line 3891, in __init__
+    self._load()
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/public.py", line 4462, in _load
+    raise ValueError(
+ValueError: Project rebeccaj/exercise_14 does not contain artifact: "raw_data.parquest:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/run.py", line 80, in <module>
+    go(args)
+  File "/Users/rebeccajohnson/Dropbox/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/run.py", line 19, in go
+    artifact = run.use_artifact(args.input_artifact)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2303, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/normalize.py", line 61, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/public.py", line 874, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/public.py", line 3891, in __init__
+    self._load()
+  File "/Users/rebeccajohnson/opt/anaconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/lib/python3.9/site-packages/wandb/apis/public.py", line 4462, in _load
+    raise ValueError(
+wandb.errors.CommError: Project rebeccaj/exercise_14 does not contain artifact: "raw_data.parquest:latest"
